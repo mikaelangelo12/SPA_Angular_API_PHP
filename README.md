@@ -61,5 +61,5 @@ na tabela de series criei com seguinte parametros Id, Nome e Desc:
 Em series.service.ts importei a biblioteca HtttpCliente onte eu possa está recebendo o link da api no aplicativo,onde subistitui o arquivo de SERIES onde ficava armazenado as informações, pois este trabalho agora é da api,por isso não tem mais necessidade de manter o arquivo, apobtei o http para o link da api http://localhost:8000/api/series.
 
 Quando é adicionado uma serie no banco de dados automaticamente aparece no app.
-# Test_Facilita-Tech
+
 # SPA-Minhas-Series_comAPI
