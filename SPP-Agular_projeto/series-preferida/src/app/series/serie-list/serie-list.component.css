@@ -1,0 +1,64 @@
+.serie {
+    margin: 0 0 2em 0;
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+  }
+  .serie li {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .serie li:hover {
+    left: .1em;
+  }
+  
+  .serie a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    font-size: 1.2rem;
+    background-color: #eee;
+    margin: .5rem .5rem .5rem 0;
+    padding: .5rem 0;
+    border-radius: 4px;
+  }
+  
+  .serie a:hover {
+    color: #2c3a41;
+    background-color: #e6e6e6;
+  }
+  
+  .serie a:active {
+    background-color: #525252;
+    color: #fafafa;
+  }
+  
+  .serie .selected a {
+    background-color: #d6e6f7;
+  }
+  
+  .serie .selected a:hover {
+    background-color: #bdd7f5;
+  }
+  
+  .serie .badge {
+    padding: .5em .6em;
+    color: white;
+    background-color: #525252;
+    min-width: 16px;
+    margin-right: .8em;
+    border-radius: 4px 0 0 4px;
+  }
+  h2{
+    font-size: 1.7em;
+    text-align: center;
+    font-weight: 600;
+  }
+  @media (max-width: 400px){
+    h2{
+      font-size: 1.2em;
+      text-align: center;
+      font-weight: 700;
+    }
+  }

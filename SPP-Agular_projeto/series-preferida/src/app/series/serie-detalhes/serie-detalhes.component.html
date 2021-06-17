@@ -1,0 +1,8 @@
+
+<div *ngIf="serie$ | async as serie" class="descricao">
+  <h2 >Mais Detalhe:</h2>
+  <img class="lista-bg" src="./assets/img/01.jpg" />
+  <h3>{{ serie.name }}</h3>
+  <p>{{ serie.desc }}</p> 
+  <button class="button-text" (click)="gotoSeries(serie)">Voltar</button>
+</div>

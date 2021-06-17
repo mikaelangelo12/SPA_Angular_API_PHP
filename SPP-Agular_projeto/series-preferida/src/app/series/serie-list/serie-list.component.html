@@ -1,0 +1,10 @@
+<h2>Lista das Melhores Series</h2>
+<ul class="serie">
+  <li *ngFor="let serie of series$ | async" [class.selected]="serie.id === selectedId">
+    <a [routerLink]="['/serie', serie.id]">
+      <span class="badge">{{ serie.id }}</span>{{ serie.name }}
+    </a>
+  </li>
+</ul>
+
+

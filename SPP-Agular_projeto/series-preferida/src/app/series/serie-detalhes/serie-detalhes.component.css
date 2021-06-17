@@ -1,0 +1,48 @@
+button {
+    margin-top: 1rem;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 0rem;
+  }
+.text-edit{
+  display: inline-block;
+  font-size: 0.8em;
+  margin: 0;
+}
+.input-text{
+  border-radius: 5px;
+  margin-left: 20px;
+  display: inline-block;
+}
+.button-text{
+  display: block;
+  width: 100%;
+  background-color: #333333;
+  color: white;
+  border-radius: 20px;
+}
+  .lista-bg{
+  width: 100%;
+  border-radius: 20px;
+  -webkit-box-shadow: 3px 5px 10px -5px #000000; 
+  box-shadow: 3px 5px 10px -5px #000000;
+}
+.descricao h3{
+  font-weight: 700;
+}
+.descricao h2{
+  font-size: 1em;
+}
+@media (max-width: 400px){
+  .descricao img{
+    position: relative;
+    width: 320px;
+    border-radius: 0;
+    margin-left: -20px;
+  }
+  .descricao h2{
+    font-size: 0.9em;
+  }
+}
